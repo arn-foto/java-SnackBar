@@ -1,8 +1,10 @@
 package snackbarApp;
 
-public class Main {
+public class Main
+ {
 
-    private static void javaSnackbar() {
+    private static void javaSnackbar() 
+    {
 
         System.out.println("this is fkn hard");
         System.out.println();
@@ -50,7 +52,8 @@ public class Main {
         System.out.println("Total pretzels left after " + cust2.getName() + " bought 3 is $" + pretzel.getQuantity());
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         javaSnackbar();
     }
 }
